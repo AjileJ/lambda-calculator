@@ -1,15 +1,16 @@
 .container {
     background-color: #c00025;
-    width: 100%;
+    width: 70%;
     max-width: 550px;
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
+    height: 50vh;
 }
 .display {
-    margin-top: 25px;
-    height: 100px;
-    width: 450px;
+    margin-top: 0px;
+    height: 75px;
+    width: 100%;
     border-radius: 50px;
     color: white;
     background-color: #322c2d;
@@ -17,6 +18,13 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    padding-right: 8%;
+    text-align: center;
+    
+    padding-right: %;
     font-size: 5.0rem;
+  }
+  img.logo {
+      width: 25%;
+      padding: 5%;
+
   }
