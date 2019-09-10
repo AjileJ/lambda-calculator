@@ -10,6 +10,8 @@ import {specials} from "../../../data";
   // STEP 2 - add the imported data to state
 const [specialState, setSpecialState] = useState(specials);
   return (
+    <div className = "special_container">
+      <div className = "special">
     <div>
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
        component matching the name on the provided file. Pass
@@ -18,6 +20,8 @@ const [specialState, setSpecialState] = useState(specials);
       <SpecialButton key = {index} specials = {special} 
       />
        ))}
+    </div>
+    </div>
     </div>
   );
 };

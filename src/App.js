@@ -23,8 +23,8 @@ function App() {
     <div className="container">
       <Logo />
       <Display />
-      <Numbers />
       <Specials />
+      <Numbers />
       <Operators />
       
       <div className="App">

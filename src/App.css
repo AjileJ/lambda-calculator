@@ -1,11 +1,11 @@
 .container {
     background-color: #c00025;
-    width: 70%;
+    width: 100%;
     max-width: 550px;
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
-    height: 50vh;
+    
 }
 .display {
     margin-top: 0px;
@@ -20,11 +20,6 @@
     align-items: flex-end;
     text-align: center;
     
-    padding-right: %;
+    padding-right: 0%;
     font-size: 5.0rem;
-  }
-  img.logo {
-      width: 25%;
-      padding: 5%;
-
-  }
+}

@@ -15,6 +15,8 @@ import { numbers } from '../../../data'
   // STEP 2 - add the imported data to state
   const [numberState, setNumberState] = useState(numbers);
   return (
+    <div className = "numbers_container">
+    <div className = "numbers">
     <div>
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
        component matching the name on the provided file. Pass
@@ -23,6 +25,8 @@ import { numbers } from '../../../data'
        <NumberButton key = {index} numbers = {number} 
        />
        ))}
+      </div>
+      </div>
       </div>
   );
 };
