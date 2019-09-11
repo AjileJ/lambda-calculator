@@ -1,7 +1,7 @@
 import React from "react";
 
- export const Display = () => {
-  return <div className="display">
+ export const Display = (props) => {
+  return <div className="display"><p>{0}</p>
 
     {/* Display any props data here */}
 

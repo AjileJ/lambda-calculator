@@ -5,12 +5,11 @@
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
-    
 }
 .display {
-    margin-top: 0px;
-    height: 75px;
-    width: 100%;
+    margin-top: 25px;
+    height: 100px;
+    width: 450px;
     border-radius: 50px;
     color: white;
     background-color: #322c2d;
@@ -18,8 +17,28 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    text-align: center;
-    
-    padding-right: 0%;
+    padding-right: 8%;
     font-size: 5.0rem;
-}
+  }
+
+  div.numbers,div.specials{
+    width: 15%;
+    margin-right: 0;
+    margin-left:40%;
+    }
+    
+    .numbtn,.opebtn,.spebtn {
+        border-radius: 50%;
+        
+    
+    }
+    .opebtn {
+        border: 1px solid black;
+    }
+    .opebtncon {
+        border:1px solid black;
+        display:flex;
+        justify-content: center;
+        margin-left:15%; 
+    }
+

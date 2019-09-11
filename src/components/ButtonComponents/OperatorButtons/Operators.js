@@ -11,8 +11,7 @@ import {operators} from "../../../data";
   const [operatorState, setOperatorState] = useState(operators);
   return (
     <div className = "operators_container">
-      <div className = "operators">
-    <div>
+    <div className = "operators">
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
        component matching the name on the provided file. Pass
        it any props needed by the child component*/
@@ -20,7 +19,6 @@ import {operators} from "../../../data";
          <OperatorButton key ={index} operators={operator}
          />
        ))}
-    </div>
     </div>
     </div>
   );
