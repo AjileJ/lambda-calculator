@@ -20,3 +20,25 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+  div.numbers,div.specials{
+    width: 15%;
+    margin-right: 0;
+    margin-left:40%;
+    }
+    
+    .numbtn,.opebtn,.spebtn {
+        border-radius: 50%;
+        
+    
+    }
+    .opebtn {
+        border: 1px solid black;
+    }
+    .opebtncon {
+        border:1px solid black;
+        display:flex;
+        justify-content: center;
+        margin-left:15%; 
+    }
+
